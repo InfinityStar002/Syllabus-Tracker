@@ -1,1 +1,22 @@
-
+{
+  "short_name": "SyllabusTracker",
+  "name": "Syllabus Tracker",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#0D47A1",
+  "display": "standalone",
+  "scope": ".",
+  "theme_color": "#1976D2",
+  "description": "A modern, installable PWA syllabus tracker for Android web, built with React and TypeScript."
+}
