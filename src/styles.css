@@ -1,1 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #f5f7fa;
+  color: #212121;
+}
 
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.top-bar, .bottom-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(13, 71, 161, 0.75);
+  color: #fff;
+  font-size: 1.3em;
+  z-index: 10;
+  backdrop-filter: blur(8px);
+  border-radius: 0 0 18px 18px;
+}
+
+.top-bar {
+  top: 0;
+  border-radius: 0 0 18px 18px;
+}
+
+.bottom-bar {
+  bottom: 0;
+  border-radius: 18px 18px 0 0;
+}
+
+.add-item-form {
+  display: flex;
+  gap: 8px;
+  margin: 18px 0;
+}
+
+.add-item-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 18px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+  outline: none;
+}
+
+.add-btn, .add-nested-btn, .delete-btn {
+  background: rgba(25, 118, 210, 0.85);
+  color: #fff;
+  border: none;
+  border-radius: 18px;
+  padding: 7px 16px;
+  font-size: 0.95em;
+  cursor: pointer;
+  margin-left: 4px;
+  transition: background 0.18s;
+}
+
+.add-btn:hover, .add-nested-btn:hover, .delete-btn:hover {
+  background: #1565c0;
+}
+
+.syllabus-list {
+  margin-top: 8px;
+}
+
+.syllabus-item {
+  padding: 8px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.65);
+  margin-bottom: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.syllabus-title {
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.progress-bar {
+  margin: 18px 0 12px 0;
+  font-size: 1em;
+  color: #1976D2;
+}
+
+.progress-bg {
+  width: 100%;
+  background: #e3eafc;
+  border-radius: 12px;
+  height: 14px;
+  margin-top: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background: linear-gradient(90deg, #1976D2, #64b5f6);
+  height: 100%;
+  border-radius: 12px;
+  transition: width 0.3s;
+}
