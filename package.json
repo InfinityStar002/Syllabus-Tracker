@@ -8,9 +8,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -19,7 +17,6 @@
   "devDependencies": {
     "@types/react": "^18.0.38",
     "@types/react-dom": "^18.0.14",
-    "typescript": "^5.0.0",
-    "gh-pages": "^7.2.0"
+    "typescript": "^5.0.0"
   }
 }
