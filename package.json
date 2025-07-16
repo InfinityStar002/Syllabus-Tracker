@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "description": "A modern, installable PWA syllabus tracker for Android web, built with React and TypeScript.",
+  "homepage": "https://InfinityStar002.github.io/Syllabus-Tracker",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -16,6 +19,7 @@
   "devDependencies": {
     "@types/react": "^18.0.38",
     "@types/react-dom": "^18.0.14",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "gh-pages": "^7.2.0"
   }
 }
