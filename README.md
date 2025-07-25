@@ -1,6 +1,6 @@
-# Notice 💻
+# Notice 📢
 
-## Need assistance in creating this web-app smooth run and in publishing with build. 
+## ⚠️ Need assistance in creating this web-app smooth run and in publishing with build. ⚠️
 
 ============================================
 # Syllabus Tracker
