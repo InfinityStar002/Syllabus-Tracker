@@ -1,3 +1,6 @@
+## Need assistance in creating this web-app smooth run and in publishing with build. 
+
+============================================
 # Syllabus Tracker
 
 A modern, installable Android web app to track your syllabus and progress—built with React, TypeScript, and PWA technology.
