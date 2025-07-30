@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import SyllabusTracker from './App';
 import './styles.css';
 
 // Register service worker for PWA
@@ -15,6 +15,6 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <SyllabusTracker />
   </React.StrictMode>
 );
